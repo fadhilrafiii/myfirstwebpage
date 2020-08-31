@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This is the Personal Website of Fadhil Muhammad Rafi' Feel free to visit!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>💙Fadhil's Personal Site💙</title>
+  </title>
+  <link rel="stylesheet" href="..\style\style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;900&family=Quicksand:wght@300;400;500;600;700&family=Inter:wght@200;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <script src="../script.js"></script>
+  <header class="nav">
+    <section class="left-side">
+      <img src="..\PICS\Fadhil.png" id="logo" height="70px" />
+    </section>
+    <section class="right-side">
+      <ul class="menu">
+        <li><a href="bio.html">BIO</a></li>
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="organization.html">ORGANIZATION</a></li>
+        <li><a href="experience.html">EXPERIENCE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </section>
+  </header>
+  <div class="main first" id="main">
+    <div class="main-area">
+      <div class="main-content">
+        <h1 class='text'>KNOW <br />WHO <br> I AM</h1>
+        <button class="button" onclick="slide()">GET STARTED</button>
+      </div>
+    </div>
+  </div>
+  <div class="content one" id="content">
+    <section class="photo">
+      <img src="..\PICS\BIO_FOTO.png" height="380px" />
+    </section>
+    <section class="teks">
+      <h1 id="hello">Hello, there!</h1>
+      <input type="text" id="your-name" class="your-name" name="your-name" value="" placeholder="Who are you?">
+      <button type="button" id="button-name" name="button" class="button-name" onclick="changeName()">OK</button>
+      <p class="description">
+        My name is Fadhil Muhammad Rafi', you can call me Fadhil. I am
+        the first son of Kurnia Hartawan and Nailal Marom. I was born at
+        Bandarlampung, November 7<sup>th</sup> 2000. Now, I am a 5<sup>th</sup> semester
+        Informatics Engineering at Institut Teknologi Bandung.
+        I am an extrovert person who like socialize and having fun with
+        others. I love playing football, hanging out, and exploring myself. And I really love chatime♡♡♡
+      </p>
+    </section>
+  </div>
+  <footer id="contact">
+    <h3 class="know">Want to know more?</h3>
+    <section class="socmed">
+      <ul class="social">
+        <li><a href="https://www.instagram.com/fadhilrafiii/" target="_blank"><img src="..\PICS\logo_ig.png" height="35px" /></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100007077706147" target="_blank"><img src="..\PICS\social-facebook-circle-512.png" height="35px" /></a></li>
+        <li><a href="https://www.linkedin.com/in/fadhil-muhammad-rafi-bb299a1b0/" target="_blank"><img src="..\PICS\ezgif.com-webp-to-png.png" height="35px" /></a></li>
+      </ul>
+    </section>
+    <section class="message-form">
+      <p id="feedback">Please give your feedback!</p>
+      <form class="form" id="form" action="mailto:fadhilrafi90@gmail.com" target="_blank" method="post" enctype="text/plain">
+        <label>Your Email: </label><br>
+        <input class="input email" type="text" name="Email" value="">
+        <br>
+        <label for="">Your message:</label><br>
+        <textarea class="input message" name="Message" value="message"></textarea><br>
+        <input type="submit" class="submit" id="submit" onclick="thankyou()">
+      </form>
+    </section>
+    <section class="closing">
+      <p class="quote">
+        <i>"Sebelum kita bersama, ada yang ingin kucapai sendirian. Sebelum saatnya berbagi, aku ingin memastikan
+          ada yang bisa kubagi. Tak usah risau, sesungguhnya menemukan langit dan bulan saja mudah bagi-Nya, apalagi hati kita."
+        </i>
+      </p>
+      <section class="copyright">
+        &#169;Copyright 2020 Fadhil Muhammad Rafi' All Right Reserved
+      </section>
+    </section>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+
+</html>

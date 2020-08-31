@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="5; URL=javascript:window.open('https://mail.google.com');">
+    <meta name="description" content="This is the Personal Website of Fadhil Muhammad Rafi' Feel free to visit!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>💙Fadhil's Personal Site💙</title>
+    <link rel="stylesheet" href="..\style\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;900&family=Quicksand:wght@300;400;500;600;700&family=Inter:wght@200;400;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="../script.js"></script>
+    <header class="nav">
+      <section class="left-side">
+        <img src="..\PICS\Fadhil.png" id="logo" height="70px" />
+      </section>
+      <section class="right-side">
+        <ul class="menu">
+          <li><a href="bio.html">BIO</a></li>
+          <li><a href="work.html">WORK</a></li>
+          <li><a href="organization.html">ORGANIZATION</a></li>
+          <li><a href="experience.html">EXPERIENCE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </section>
+    </header>
+    <div class="main fourth" id="main">
+      <div class="main-area">
+        <div class="main-content">
+          <h1 class='text'>WORKING <br />EXPERIENCE</h1>
+          <button class="button" onclick="slide()">GO FOR IT!</button>
+        </div>
+      </div>
+    </div>
+    <div class="content four" id="content-1">
+      <table class="experience">
+        <thead>
+          <tr>
+            <th><h1>Year</h1></th>
+            <th><h1>Experience</h1></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="year even"><h4>2018</h4></td>
+            <td class="exp even"><h4>Intracampus Officer of Parade Wisuda Oktober ITB 2018</h4></td>
+          </tr>
+          <tr>
+            <td class="year odd" rowspan="5"><h4>2019</h4></td>
+            <td class="exp odd"><h4>School Expeditor Officer of Bulan Bakti Ubala ITB Roadshow 2019</h4></td>
+          </tr>
+          <tr>
+            <td class="exp even"><h4>Main Event Officer of Parade Wisuda April ITB 2019</h4></td>
+          </tr>
+          <tr>
+            <td class="exp odd"><h4>Medical Team of OSKM ITB 2019</h4></td>
+          </tr>
+          <tr>
+            <td class="exp even"><h4>Head of Human Resources of Freshman Orientation Period Ubala ITB</h4></td>
+          </tr>
+          <tr>
+            <td class="exp odd"><h4>People and Culture Officer of HMIF ITB 2019</h4></td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
+      <table class="experience">
+        <thead>
+          <tr>
+            <th><h1>Year</h1></th>
+            <th><h1>Experience</h1></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="year odd" rowspan="2"><h4>2019</h4></td>
+            <td class="exp even"><h4>Funding Information Officer of Karya Inovasi Kabinet KM ITB 2019</h4></td>
+          </tr>
+          <tr>
+            <td class="exp odd"><h4>Head of Graphic Design Lampung Gham IV 2020</h4></td>
+          </tr>
+          <tr>
+            <td class="year even" rowspan="4"><h4>2020</h4></td>
+            <td class="exp even"><h4>People and Culture Officer of HMIF ITB 2020</h4></td>
+          </tr>
+          <tr>
+            <td class="exp odd"><h4>Head of Kinship Ubala ITB 2020</h4></td>
+          </tr>
+          <tr>
+            <td class="exp even"><h4>Project Leader of Freshman Orientation Period HMIF ITB 2020</h4></td>
+          </tr>
+          <tr>
+            <td class="exp odd"><h4>Computational Science and Engineering Lab Assistant 2020</h4></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer id="contact">
+      <h3 class="know">Want to know more?</h3>
+      <section class="socmed">
+        <ul class="social">
+          <li><a href="https://www.instagram.com/fadhilrafiii/" target="_blank"><img src="..\PICS\logo_ig.png" height="35px" /></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100007077706147" target="_blank"><img src="..\PICS\social-facebook-circle-512.png" height="35px" /></a></li>
+          <li><a href="https://www.linkedin.com/in/fadhil-muhammad-rafi-bb299a1b0/" target="_blank"><img src="..\PICS\ezgif.com-webp-to-png.png" height="35px" /></a></li>
+        </ul>
+      </section>
+      <section class="message-form">
+        <p id="feedback">Please give your feedback!</p>
+        <form class="form" id="form" action="mailto:fadhilrafi90@gmail.com" target="_blank" method="post" enctype="text/plain">
+          <label>Your Email: </label><br>
+          <input class="input email" type="text" name="Email" value="">
+          <br>
+          <label for="">Your message:</label><br>
+          <textarea class="input message" name="Message" value="message"></textarea><br>
+          <input type="submit" class="submit" id="submit" onclick="thankyou()">
+        </form>
+      </section>
+      <section class="closing">
+        <p class="quote">
+          <i>"Sebelum kita bersama, ada yang ingin kucapai sendirian. Sebelum saatnya berbagi, aku ingin memastikan
+            ada yang bisa kubagi. Tak usah risau, sesungguhnya menemukan langit dan bulan saja mudah bagi-Nya, apalagi hati kita."
+          </i>
+        </p>
+        <section class="copyright">
+          &#169;Copyright 2020 Fadhil Muhammad Rafi' All Right Reserved
+        </section>
+      </section>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>
