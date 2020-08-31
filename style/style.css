@@ -6,6 +6,7 @@ html,body{
   font-family: 'Quicksand', sans-serif;
   scroll-behavior: smooth;
   overflow:visible;
+  max-width: 100%;
 }
 
 .nav{
