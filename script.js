@@ -1,6 +1,7 @@
 location.hash = 'main';
 
 function slide() {
+  location.hash = 'main';
   window.scrollTo(0, 720);
 }
 
