@@ -47,9 +47,6 @@ html,body{
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  min-width: 100%;
-  max-width: 100%;
-  width:100%;
 }
 
 a{
