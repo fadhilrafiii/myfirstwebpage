@@ -177,6 +177,7 @@ a{
 .content{
   padding: 120px 240px;
   min-width: 1000px;
+  max-width: 1000px;
 }
 
 .one{
