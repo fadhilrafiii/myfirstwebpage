@@ -381,3 +381,7 @@ td{
 .social li a:hover img{
   transform: scale(1.2);
 }
+
+.isi a:hover{
+  color: rgb(89, 123, 126);
+}
